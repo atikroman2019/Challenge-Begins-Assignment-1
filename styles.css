@@ -82,3 +82,23 @@
     margin-top: 25px;
     font-weight: bold;
 }
+/* Inspiration section styles */
+
+.inspiration{
+    margin: 50px 150px;
+    padding: 80px 100px;
+}
+
+.inspiration-title{
+    text-align: center;
+}
+.inspiration-description{
+    text-align: center;
+}
+.embeded-video{
+    text-align: center;
+    padding: 30PX 20px;
+    border: 1px solid #0D1321;
+    background-color:white; 
+    margin: 50px 250px;
+}
