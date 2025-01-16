@@ -60,6 +60,7 @@
 .development-reasons{
     background-color: white;
     display: flex;
+    justify-content: space-between;
     gap: 30px;
     padding: 35PX 40px;
     margin-top: 85px;
@@ -69,9 +70,9 @@
     width: 500px;
     height: 100px;
 }
-.reason-img{
+/* .reason-img{
     margin-left: 150px;
-}
+} */
 .learn-btn{
     border: 1x solid rgba(13, 19, 33, 1) ;
     width: 170px;
@@ -101,4 +102,45 @@
     border: 1px solid #0D1321;
     background-color:white; 
     margin: 50px 250px;
+}
+/*target-styles */
+.targets-container{
+    display: flex;
+    margin-left:50px;
+}
+.targets-title{
+    text-align: center;
+}
+.target-description{
+    text-align: center;
+    width:1140px;
+    margin-top: 30px;
+    margin-left:180px;
+}
+.target-html{
+    width: 300px;
+    height: 300px;
+    padding: 40px 40px;
+    margin: 150px 50px;
+    background-color: rgba(255, 76, 30, 0.05);
+    border-radius: 5px;
+}
+.target-css{
+    width: 300px;
+    height: 300px;
+    padding: 40px 40px;
+    margin: 150px 50px;
+    background-color: rgba(0, 76, 232, 0.05);
+    border-radius: 5px;
+}
+.target-js{
+    width: 300px;
+    height: 300px;
+    padding: 40px 40px;
+    margin: 150px 50px;
+    background-color:rgba(255, 223, 0, 0.05);
+    border-radius: 5px;
+}
+.target a{
+    margin-top: 20px 40px;
 }
