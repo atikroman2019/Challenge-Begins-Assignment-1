@@ -3,7 +3,7 @@
 .azeret-mono{
   font-family: "Azeret Mono", serif;
   font-optical-sizing: auto;
-  font-weight: 900;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -23,9 +23,10 @@
     font-family: "Azeret Mono", serif;
 }
 .banner-description{
-    font-size: 20px;
+    font-size: 14px;
     font-family: "Azeret Mono", serif;
     text-align: center;
+    color: rgba(13, 19, 33, 1);
 
 }
 .btn{
@@ -39,4 +40,45 @@
     border-radius: 10px;
     margin-bottom: 35px;
     margin-top: 25px;
+}
+/* web-development-styles */
+.web-development{
+    margin: 70px 150px;
+    padding: 80px 100px;
+    background-color: rgba(13, 19, 33, 0.02);
+    
+}
+.web-development-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.web-development-description{
+    text-align: center;
+}
+
+.development-reasons{
+    background-color: white;
+    display: flex;
+    gap: 30px;
+    padding: 35PX 40px;
+    margin-top: 85px;
+    color: rgba(13, 19, 33, 0.7);
+}
+.reason-container{
+    width: 500px;
+    height: 100px;
+}
+.reason-img{
+    margin-left: 150px;
+}
+.learn-btn{
+    border: 1x solid rgba(13, 19, 33, 1) ;
+    width: 170px;
+    height: 50px;
+    background-color: white;
+    font-size: 22px;
+    color: rgba(13, 19, 33, 0.7) ;
+    margin-top: 25px;
+    font-weight: bold;
 }
